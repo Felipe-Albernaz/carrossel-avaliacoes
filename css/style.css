@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+
+html, body{
+    height: 100vh;
+    background-color: rgb(221, 234, 234);
+}
+
+main{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 2%;
+    min-height: 100vh;
+}
+
+.container{
+    width: 100%;
+    margin-top: 30%;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.underline{
+    margin: 5px auto;
+    width: 70px;
+    height: 3px;
+    background-color: rgb(93, 165, 224) ;
+}
+
+.review{
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.922);
+    box-shadow: rgba(51, 51, 51, 0.772) 1px 2px 15px 1px;
+}
+
+#person-img{
+    width: 160px;
+    height: 160px;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-shadow: rgb(93, 165, 224) 6px -2.5px  1px;
+}
+
+#autor{
+    font-size: 25px;
+    margin: 5px;
+}
+
+#job{
+    font-size: 16px;
+    color: rgb(93, 165, 224) ;
+    margin: 5px;
+}
+
+.text{
+    width: 90%;
+    height: 90px;
+    margin: 45px auto;
+    
+}
+
+.button-container{
+    margin: 10px;
+}
+
+.prev-btn, .next-btn{
+    margin: 0 15px;
+}
+
+
+.prev-btn{
+    width: 25px;
+    height: 25px;
+    background-image: url('../images/arrowLeft.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.prev-btn:hover{
+    border: 1.3px solid rgb(93, 165, 224);
+    padding: 6px;
+    border-radius: 5px;
+    scale: 1.2;
+}
+
+.prev-btn:active{
+    scale: 0.9;
+}
+
+
+.next-btn{
+    width: 25px;
+    height: 25px;
+    background-image: url('../images/arrowRight.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.next-btn:hover{
+    border: 1.3px solid rgb(93, 165, 224);
+    padding: 6px;
+    border-radius: 5px;
+    scale: 1.2;
+}
+
+.next-btn:active{
+    scale: 0.9;
+}
+
+.random-btn{
+    font-size: 15px;
+    background-color: rgb(236, 247, 247);
+    padding: 3px;
+    margin: 20px;
+    border: 1px solid rgb(93, 165, 224) ;
+    border-radius: 7px;
+    color: rgb(93, 165, 224) ;
+    cursor: pointer;
+}
+
+.random-btn:hover{
+    background-color: rgb(68, 163, 241);
+    color: white;
+    transition: 0.3s;
+    scale: 1.2;
+}
+
+.random-btn:active{
+    scale: 1;
+}
+
+
+
+@media screen and (max-width:1200px){
+    .review{
+        width: 90%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width:800px){
+
+    .review{
+        width: 90%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width:412px){
+
+    .review{
+        width: 85%;
+        height: 55%;
+    }
+}
+
